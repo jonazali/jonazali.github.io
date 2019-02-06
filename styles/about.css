@@ -4,31 +4,80 @@
 
 }
 
-/*Id Specified*/
-
-#header{
-    font-family: ostrich;
-    font-size: 60px;
+article{
 
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    padding: 2em;
 
-    border-top: solid 10px aqua;
-    border-bottom: solid 10px aqua;
+    background-color: rgba(0, 255, 255, 0.85);
+    margin-left: 10em;
+    margin-right: 10em;
+
+    border-radius: 5px;
+    border: 3px solid grey;
+
 }
 
-#intro{
+body {
 
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
+    background-image: url("../pictures/los_angeles.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-#intro_p{
-    width: 200px;
+    font-family: sans-serif;
+
 }
 
 div{
     margin: 10px;
 }
+
+li{
+    list-style: square;
+}
+
+/*Classes Specified*/
+
+.descriptions{
+    width: 300px;
+}
+
+.pics{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    vertical-align: center;
+}
+
+.paragraph{
+
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+
+}
+
+
+/*Id Specified*/
+
+#profile_pic{
+    border: 5px solid black;
+}
+
+#introductory{
+    list-style: none;
+}
+
+#header{
+    font-family: ostrich;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+
+
