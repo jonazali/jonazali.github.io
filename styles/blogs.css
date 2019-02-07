@@ -10,7 +10,7 @@
 
 }
 
-
+/*General*/
 
 body {
 
@@ -30,35 +30,22 @@ article{
     flex-direction: column;
     padding: 2em;
 
-    background-color: rgba(135, 206, 250, 0.95);
-    margin-left: 25em;
-    margin-right: 25em;
+    background-color: rgba(248, 131, 121, 0.85);
+    margin-left: 10em;
+    margin-right: 10em;
 
     border-radius: 5px;
     border: 3px solid grey;
 
 }
 
-img{
-    height: 100px;
-    width: 100px;
-}
+/*Class Specified*/
 
-section{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-}
-
-/*Class Specific*/
-
-/*ID specific*/
+/*Id Specified*/
 
 #header{
-
     font-family: ostrich;
     font-size: 60px;
     text-align: center;
 
 }
-
