@@ -3,6 +3,12 @@
     src: url("ostrich.ttf");
 
 }
+@font-face{
+    font-family: "opensans";
+    src: url("opensans.ttf");
+
+}
+
 
 article{
 
@@ -27,7 +33,7 @@ body {
     background-position: center;
     background-size: cover;
 
-    font-family: sans-serif;
+    font-family: opensans;
 
 }
 
