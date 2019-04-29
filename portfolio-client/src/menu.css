@@ -1,0 +1,7 @@
+.menu-td {
+  height: 2rem;
+  width: 5rem;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 25px;
+}
