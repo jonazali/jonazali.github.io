@@ -9,7 +9,7 @@ class Display extends React.Component {
   render() {
     return (
       <section className='display-container'>
-        <p>TEST TEST TEST</p>
+        <h2>Animation Goes here</h2>
       </section>
     );
   }
