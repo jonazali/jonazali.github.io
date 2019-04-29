@@ -1,8 +1,4 @@
-.name-header{
-  text-align:center
-}
-
-.menu-table{
+.menu-table {
   border-spacing: 10rem 1rem;
 }
 .menu-td {
@@ -13,5 +9,4 @@
 
   padding: 20px;
   text-align: center;
-  
 }
