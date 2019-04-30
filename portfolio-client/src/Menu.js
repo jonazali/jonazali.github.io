@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
+
 import './menu.css';
 import azali_logo_pyramid from './assets/img/azali_logo_pyramid.png';
 
@@ -18,9 +20,17 @@ class Menu extends React.Component {
         />
         <table className='menu-table'>
           <tr className='menu-tr'>
-            <td className='menu-td'>About</td>
-            <td className='menu-td'>Projects</td>
-            <td className='menu-td'>Contact</td>
+            <td className='menu-td'>
+              <button className='menu-button' id='about-button'>
+                About
+              </button>
+            </td>
+            <td className='menu-td'>
+              <button className='menu-button'>Projects</button>
+            </td>
+            <td className='menu-td'>
+              <button className='menu-button'>Blogs</button>
+            </td>
           </tr>
         </table>
       </header>
