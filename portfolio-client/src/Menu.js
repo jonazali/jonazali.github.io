@@ -1,6 +1,6 @@
 import React from 'react';
 import './menu.css';
-import azali_logo from './assets/img/azali_logo.png';
+import azali_logo_pyramid from './assets/img/azali_logo_pyramid.png';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -11,7 +11,11 @@ class Menu extends React.Component {
   render() {
     return (
       <header className='menu-header'>
-        <img className='azali-logo' src={azali_logo} alt='azali_logo' />
+        <img
+          className='azali-logo-pyramid'
+          src={azali_logo_pyramid}
+          alt='azali_logo'
+        />
         <table className='menu-table'>
           <tr className='menu-tr'>
             <td className='menu-td'>About</td>
