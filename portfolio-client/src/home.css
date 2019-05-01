@@ -1,3 +1,7 @@
+:root {
+  font-family: 'Trebuchet MS';
+}
+
 .home-container {
   align-items: center;
   display: flex;
@@ -10,7 +14,7 @@
   align-items: center;
 }
 
-.azali-logo-pyramid {
+.azali-logo {
   width: 50%;
 }
 
