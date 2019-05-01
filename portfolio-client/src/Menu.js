@@ -26,10 +26,14 @@ class Menu extends React.Component {
               </button>
             </td>
             <td className='menu-td'>
-              <button className='menu-button'>Projects</button>
+              <button className='menu-button' id='projects-button'>
+                Projects
+              </button>
             </td>
             <td className='menu-td'>
-              <button className='menu-button'>Blogs</button>
+              <button className='menu-button' id='blogs-button'>
+                Blogs
+              </button>
             </td>
           </tr>
         </table>

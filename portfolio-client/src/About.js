@@ -14,7 +14,7 @@ class About extends React.Component {
           I am a veteran of the United States Marine Corps and an alumni of
           California State University Northridge. I obtained a bachelor of
           Science in Computer Information Technology with a Domain Emphasis in
-          Mathematics
+          Mathematics.
         </p>
         <p>
           I have several links below if you are interested in my online presence

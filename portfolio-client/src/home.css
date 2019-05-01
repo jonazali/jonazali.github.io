@@ -1,5 +1,26 @@
 .home-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.azali-logo-pyramid {
+  width: 50%;
+}
+
+.menu-button {
+  height: 3rem;
+  width: 10rem;
+  border: 3px solid black;
+  border-radius: 20px;
+
+  text-align: center;
+  background: white;
+  outline: none;
 }
