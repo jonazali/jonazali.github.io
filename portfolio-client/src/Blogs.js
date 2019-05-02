@@ -10,6 +10,7 @@ class Blogs extends React.Component {
     return (
       <section className='display-container'>
         <h2>Animation Goes here</h2>
+        {/* create map function here */}
       </section>
     );
   }

@@ -18,13 +18,13 @@ class About extends React.Component {
         <div className='photo-description-container'>
           <img className='azali-photo' src={azali_photo} alt='azali_photo' />
           <p className='about-description'>
-            Hi there, Welcome to my website! My name is Jonathan Sebastian
+            Hi there! Welcome to my website! My name is Jonathan Sebastian
             Azali. I am a veteran of the United States Marine Corps and an
             alumni of California State University Northridge. I obtained my
             bachelor's in Computer Information Technology with a Domain Emphasis
             in Mathematics. I love developing applications on both mobile and
-            web platforms. Check out my projects and links to my online
-            presence!
+            web platforms. Check out my projects on my Projects Tab and my links 
+            to see my online presence!
           </p>
         </div>
       </article>
