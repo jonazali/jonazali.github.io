@@ -42,13 +42,12 @@ class Home extends React.Component {
               </tr>
             </table>
           </header>
-
-          <Switch>
-            <Route path='/about' component={About} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/blogs' component={Blogs} />
-          </Switch>
         </div>
+        <Switch>
+          <Route path='/about' component={About} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/blogs' component={Blogs} />
+        </Switch>
       </BrowserRouter>
     );
   }
