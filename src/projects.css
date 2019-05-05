@@ -30,22 +30,10 @@
 }
 
 .glide--next-btn {
-  right: 0;
-  position: absolute;
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-  height: 60px;
-  border: none;
-  font-size: 25px;
-  outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
 }
 .glide--prev-btn {
-  left: 0;
-  position: absolute;
-  color: white;
-  background-color: rgba(0, 0, 0, 0);
-  height: 60px;
-  border: none;
-  font-size: 25px;
-  outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 25px;
 }
