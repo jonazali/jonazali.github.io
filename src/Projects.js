@@ -19,12 +19,12 @@ class Projects extends React.Component {
       <article className='projects-container'>
         <header className='projects-header'>Projects</header>
         <Glide infinite dots={true}>
-          {projectList.map((project, i) => (
-            <div key={i}>
+          {projectList.map((project) => (
+            <div>
               <ProjectCard
                 title={project.title}
                 img={project.src}
-                link={project.link}
+                weblink={project.weblink}
                 details={project.details}
               />
             </div>
