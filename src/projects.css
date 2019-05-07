@@ -5,7 +5,7 @@
   margin: 5%;
 }
 
-.projects-header{
+.projects-header {
   display: flex;
   justify-content: center;
   font-size: 3rem;
@@ -30,10 +30,14 @@
 }
 
 .glide--next-btn {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 25px;
 }
 .glide--prev-btn {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 25px;
+}
+
+.glide--dots {
+  display: none;
 }

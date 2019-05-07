@@ -1,0 +1,14 @@
+.display-container {
+  text-align: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
