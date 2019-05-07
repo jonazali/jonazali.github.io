@@ -5,10 +5,19 @@
 .details-container {
   display: flex;
   flex-direction: row;
+  border: solid 5px black;
+  border-radius: 2rem;
+  padding: 0% 5%;
+}
+
+.picture {
+  width: 50%;
+  height: 0%;
 }
 
 .details {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 50%;
 }

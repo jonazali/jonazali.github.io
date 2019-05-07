@@ -9,7 +9,7 @@ class ProjectCard extends React.Component {
   }
 
   render() {
-    const { title, img, weblink, details } = this.props;
+    let { title, img, weblink, details, onOpenLink } = this.props;
     return (
       <div className='display-container'>
         <h2>{title}</h2>
@@ -19,7 +19,7 @@ class ProjectCard extends React.Component {
             src={img}
             alt='project_picture'
             role='button'
-            onClick={() => (window.location = weblink)}
+            onClick={() => onOpenLink(weblink)}
           />
           <p className='details'>{details}</p>
         </div>
