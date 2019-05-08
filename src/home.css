@@ -2,6 +2,10 @@
   font-family: 'Trebuchet MS';
 }
 
+html {
+  min-height: 150vh;
+}
+
 .home-container {
   align-items: center;
   display: flex;
@@ -27,4 +31,9 @@
   text-align: center;
   background: white;
   outline: none;
+}
+
+.menu-button:hover {
+  transition: background-color 1s ease-in;
+  background-color: grey;
 }

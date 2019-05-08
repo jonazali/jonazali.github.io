@@ -1,0 +1,9 @@
+.blogs-header {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.blogs-container {
+  margin: 5%;
+}

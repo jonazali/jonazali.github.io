@@ -25,19 +25,25 @@ class Home extends React.Component {
             <table className='menu-table'>
               <tr className='menu-tr'>
                 <td className='menu-td'>
-                  <button className='menu-button' id='about-button'>
-                    <NavLink to='/about'>About</NavLink>
-                  </button>
+                  <NavLink to='/about'>
+                    <button className='menu-button' id='about-button'>
+                      About
+                    </button>
+                  </NavLink>
                 </td>
                 <td className='menu-td'>
-                  <button className='menu-button' id='projects-button'>
-                    <NavLink to='/projects'>Projects</NavLink>
-                  </button>
+                  <NavLink to='/projects'>
+                    <button className='menu-button' id='projects-button'>
+                      Projects
+                    </button>
+                  </NavLink>
                 </td>
                 <td className='menu-td'>
-                  <button className='menu-button' id='blogs-button'>
-                    <NavLink to='/blogs'>Blogs</NavLink>
-                  </button>
+                  <NavLink to='/blogs'>
+                    <button className='menu-button' id='blogs-button'>
+                      Blogs
+                    </button>
+                  </NavLink>
                 </td>
               </tr>
             </table>

@@ -1,5 +1,8 @@
 import React from 'react';
 
+//Import Styles and External Files
+import './blogs.css';
+
 class Blogs extends React.Component {
   constructor(props) {
     super(props);
@@ -8,10 +11,9 @@ class Blogs extends React.Component {
 
   render() {
     return (
-      <section className='display-container'>
-        <h2>Animation Goes here</h2>
-        {/* create map function here */}
-      </section>
+      <article className='blogs-container'>
+        <header className='blogs-header'>Blogs</header>
+      </article>
     );
   }
 }
