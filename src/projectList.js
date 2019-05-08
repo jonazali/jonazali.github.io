@@ -12,7 +12,8 @@ const projectList = [
     Marine Force Exam. The Fleet Marine Force Prep mobile application allows sailors
     to study for the exam utilizing flashcards, mock quizes and exams.
     Click on the icon to see it on the google play store!`
-  },
+  }
+  ,
   {
     title: 'Aura',
     src: aura_logo,

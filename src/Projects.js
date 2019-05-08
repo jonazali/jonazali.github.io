@@ -22,8 +22,9 @@ class Projects extends React.Component {
     return (
       <article className='projects-container'>
         <header className='projects-header'>Projects</header>
+        <div className='group-container'>
         {projectList.map(project => (
-          <div>
+          <div className='single-container'>
             <ProjectCard
               title={project.title}
               img={project.src}
@@ -33,6 +34,7 @@ class Projects extends React.Component {
             />
           </div>
         ))}
+        </div>
       </article>
     );
   }

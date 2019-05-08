@@ -1,8 +1,8 @@
-.projects-container {
+.single-container {
+  width: 30%;
+  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 5%;
 }
 
 .projects-header {
@@ -11,33 +11,8 @@
   font-size: 3rem;
 }
 
-.glide--item {
-  opacity: 0;
-}
-.glide--item,
-.glide--item.current {
-  position: absolute;
-  left: 0;
-  width: 50%;
-  margin: 3% 25% 25%;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-.glide--item.current {
-  opacity: 1;
-}
-
-.glide--next-btn {
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 25px;
-}
-.glide--prev-btn {
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 25px;
-}
-
-.glide--dots {
-  display: none;
+.group-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
