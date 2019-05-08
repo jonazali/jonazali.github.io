@@ -1,0 +1,15 @@
+.card-container{
+  width: 100%;
+}
+
+.picture {
+  width: 50%;
+  height: 0%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
