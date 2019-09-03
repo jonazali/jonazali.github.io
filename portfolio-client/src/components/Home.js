@@ -1,19 +1,18 @@
 import React from 'react';
 
 // Import Components Here
-import Home from '../components/Home.js';
 
 // Improt Styles Here
 
-class Portfolio extends React.Component {
+class Home extends React.Component {
 
     render(){
         return(
             <main>
-                <Home />
+                <h2>Testing</h2>
             </main>
         )
     }
 }
 
-export default Portfolio;
+export default Home;
