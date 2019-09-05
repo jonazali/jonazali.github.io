@@ -1,0 +1,28 @@
+.HomePage{
+    display: flex;
+    justify-content: center;
+}
+
+
+.HomeDescriptionButtonContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+}
+
+.HomeDescription{
+
+}
+
+.HomeButton{
+
+}
+
+.HomeImg{
+    z-index: -1;
+    width: 50%;
+    opacity: 0.6;
+    position: absolute;
+}
