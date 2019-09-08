@@ -1,28 +1,29 @@
-.HomePage{
+.HomePage {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
-
-.HomeDescriptionButtonContainer{
-    position: absolute;
+.HomeDescriptionButtonContainer {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    height: 80%;
     justify-content: center;
+    margin: 10%;
+    align-items: center;
 }
 
-.HomeDescription{
-
+.HomeDescription {
+    font-size: 2rem;
+    text-align: center;
 }
 
-.HomeButton{
-
+.HomeButton {
+    height: 4rem;
+    width: 21rem;
+    font-size: 1.4rem;
+    
 }
 
-.HomeImg{
-    z-index: -1;
+.HomeImg {
     width: 50%;
-    opacity: 0.6;
-    position: absolute;
 }
