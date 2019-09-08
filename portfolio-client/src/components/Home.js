@@ -3,7 +3,7 @@ import React from 'react';
 // Import Components Here
 
 // Import Media Here
-import logo from '../images/Logo.png';
+import logo from '../images/Logo_Cropped.png';
 
 // Import Styles Here
 import '../styles/Home.css';

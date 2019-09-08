@@ -2,8 +2,10 @@ import React from 'react';
 
 // Import Components Here
 import Home from '../components/Home.js';
+import About from '../components/About.js';
 
-// Improt Styles Here
+// Import Styles Here
+import '../styles/Main.css';
 
 class Portfolio extends React.Component {
 
@@ -11,6 +13,7 @@ class Portfolio extends React.Component {
         return(
             <main>
                 <Home />
+                <About />
             </main>
         )
     }
