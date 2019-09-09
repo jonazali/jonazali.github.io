@@ -1,6 +1,7 @@
 .HomePage {
     display: flex;
     flex-direction: row;
+    height: -webkit-fill-available;
 }
 
 .HomeDescriptionButtonContainer {
