@@ -18,13 +18,13 @@ class About extends React.Component {
             <div id='AboutPage'>
                 <Grid>
                     <Grid.Row>
-                        <Grid.Column width={8} height={8}>
-                            <Image size='medium' id='Profile' src={ProfileImg} alt='Profile Img' wrapped /> 
-                        </Grid.Column>
-                        <Grid.Column id='AboutDescriptionContainer' width={8}>
+                        <Grid.Column id='AboutDescriptionContainer' width={5}>
                                 <p id='AboutDescription'> I am a web developer who specializes in Full Stack Web Development. I also have an eye for UI/UX design. Check out my list of skills by clicking the tab next to my picture or checkout my online presnce by clicking one of the icons below!</p>
                                 <Grid>
                                 </Grid>
+                        </Grid.Column>
+                        <Grid.Column floated='right' width={5}>
+                            <Image id='Profile' src={ProfileImg} alt='Profile Img' wrapped /> 
                         </Grid.Column>
                         
                     </Grid.Row>
