@@ -9,7 +9,7 @@ import Linkedin from '../images/Linkedin.png';
 
 // Import Styles Here
 import '../styles/About.css';
-import {Grid, Image, Container} from 'semantic-ui-react';
+import {Grid, Icon, Image, Container} from 'semantic-ui-react';
 
 class About extends React.Component {
 
@@ -27,8 +27,11 @@ class About extends React.Component {
                                
                         </Grid.Column>
                         <Grid.Column id='ProfileContainer' floated='right' width={5}>
-                            <Image id='Profile' src={ProfileImg} alt='Profile Img' wrapped /> 
+
+                                <Image id='Profile' src={ProfileImg} alt='Profile Img' wrapped /> 
                         </Grid.Column>
+
+                        
                         
                     </Grid.Row>
                 </Grid>

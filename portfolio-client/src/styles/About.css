@@ -3,13 +3,13 @@
 }
 
 #AboutRowContainer{
-    height: 100vh;
+    height: inherit;
 }
 
 
 #DescriptionContainer{
     text-align: center;
-    height: 100%;
+    height: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,8 +27,20 @@
 }
 
 #ProfileContainer{
+    height: inherit;
     display: flex;
     flex-direction: column-reverse;
+}
+
+#IconDiv{
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60%;
 }
 
 #Profile{
