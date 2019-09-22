@@ -1,4 +1,13 @@
-#AboutDescriptionContainer{
+#AboutContainer{
+    height: 100vh;
+}
+
+#AboutRowContainer{
+    height: 100vh;
+}
+
+
+#DescriptionContainer{
     text-align: center;
     height: 100%;
     display: flex;
@@ -6,11 +15,22 @@
     justify-content: center;
 }
 
-#AboutDescription{
-    font-size: 2rem;
+#Description{
+    font-size: 1.75rem;
+}
+
+#OnlinePresenceContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+#ProfileContainer{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 #Profile{
-    /* clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%); */
-    height: 100px;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
 }
