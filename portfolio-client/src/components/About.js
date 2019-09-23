@@ -15,9 +15,9 @@ class About extends React.Component {
 
     render(){
         return(
-            <div id='AboutContainer'>
+            <div id='AboutDiv'>
                 <Grid>
-                    <Grid.Row id='AboutRowContainer'>
+                    <Grid.Row id='AboutGridRow'>
                         <Grid.Column id='DescriptionContainer' width={11}>
                                 <Container text id='Description'> I am a developer who specializes in Full Stack Web Development. I also have an eye for UI/UX design. Check out my list of skills by clicking the tab next to my picture or checkout my online presnce by clicking one of the icons below!</Container>
                                 <Container id='OnlinePresenceContainer'>
@@ -27,8 +27,7 @@ class About extends React.Component {
                                
                         </Grid.Column>
                         <Grid.Column id='ProfileContainer' floated='right' width={5}>
-
-                                <Image id='Profile' src={ProfileImg} alt='Profile Img' wrapped /> 
+                                <Image id='ProfileImage' src={ProfileImg} alt='Profile Img' wrapped /> 
                         </Grid.Column>
 
                         

@@ -1,15 +1,13 @@
-#AboutContainer{
+#AboutDiv{
     height: 100vh;
 }
 
-#AboutRowContainer{
-    height: inherit;
+#AboutGridRow{
+    padding-bottom: 0rem;
 }
-
 
 #DescriptionContainer{
     text-align: center;
-    height: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,17 +30,7 @@
     flex-direction: column-reverse;
 }
 
-#IconDiv{
-    z-index: 1;
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 60%;
-}
-
-#Profile{
+#ProfileImage{
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
+    margin-top: 10vh;
 }
