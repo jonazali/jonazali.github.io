@@ -7,19 +7,20 @@ import logo from '../images/Logo_Cropped.png';
 
 // Import Styles Here
 import '../styles/Home.css';
-import {Grid, Button, Image } from 'semantic-ui-react';
+import {Container, Grid, Button, Image } from 'semantic-ui-react';
 
 class Home extends React.Component {
 
     render(){
         return(
-            <div id="HomeContainer"> 
+            <div id="HomeDiv"> 
                 <Grid>
-                    <Grid.Column id="HomeDescriptionButtonContainer" width={8}>
-                            <p id='HomeDescription'>Hi! My name is Jonathan Azali and I am Full Stack Web Developer!</p>
+                    <Grid.Column id="HomeGridColumnOne" width={8}>
+                            <Container text id='HomeDescription'>Hi! My name is Jonathan Azali and I am Full Stack Web Developer!
+                            </Container>
                             <Button id='HomeButton'>Click Here to View My Portfolio</Button>
                     </Grid.Column>
-                    <Grid.Column id="ImageContainer" width={8}>
+                    <Grid.Column id="HomeGridColumnTwo" width={8}>
                         <Image size='big' id='HomeImg' src={logo} alt='logo' wrapped /> 
                     </Grid.Column>
                     

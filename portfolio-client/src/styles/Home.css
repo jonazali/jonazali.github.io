@@ -1,15 +1,16 @@
-#HomeContainer {
+#HomeDiv {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#HomeDescriptionButtonContainer {
+#HomeGridColumnOne {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0rem;
 }
 
 #HomeDescription {
@@ -22,8 +23,9 @@
     width: 21rem;   
 }
 
-#ImageContainer {
+#HomeGridColumnTwo {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0rem;
 }

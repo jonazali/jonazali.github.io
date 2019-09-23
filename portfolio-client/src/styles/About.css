@@ -2,15 +2,16 @@
     height: 100vh;
 }
 
-#AboutGridRow{
-    padding-bottom: 0rem;
+#AboutGrid{
+    margin: 0;
 }
 
-#DescriptionContainer{
+#AboutGridColumnOne{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0rem;
 }
 
 #Description{
@@ -24,10 +25,11 @@
     margin-top: 10%;
 }
 
-#ProfileContainer{
+#AboutGridColumnTwo{
     height: inherit;
     display: flex;
     flex-direction: column-reverse;
+    padding: 0rem;
 }
 
 #ProfileImage{
