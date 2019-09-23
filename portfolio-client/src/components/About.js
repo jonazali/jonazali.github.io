@@ -23,7 +23,6 @@ class About extends React.Component {
                                 <Image size='small' floated='left' src={Github} alt='Github Img'/>
                                 <Image size='small' floated='right' src={Linkedin} alt='LinkedIn Img'/>
                             </Container>
-                               
                     </Grid.Column>
                     <Grid.Column id='AboutGridColumnTwo' floated='right' width={5}>
                             <Image id='ProfileImage' src={ProfileImg} alt='Profile Img' wrapped /> 
