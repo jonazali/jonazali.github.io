@@ -1,11 +1,35 @@
-#ProjectsDiv{
+#ProjectsDivOuter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
+}
+
+#ProjectsDivInner{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 #ProjectCard{
-    height: 50vh;
-    width: 50vw;
+    height: 75vh;
+    width: 75vw;
+}
+
+#LeftArrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#RightArrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
 }
