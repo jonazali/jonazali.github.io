@@ -20,8 +20,8 @@ class About extends React.Component {
                     <Grid.Column id='AboutGridColumnOne' width={11}>
                             <Container text id='Description'> I am a developer who specializes in Full Stack Web Development. I also have an eye for UI/UX design. Check out my list of skills by clicking the tab next to my picture or checkout my online presnce by clicking one of the icons below!</Container>
                             <Container id='OnlinePresenceContainer'>
-                                <Image size='small' floated='left' src={Github} alt='Github Img'/>
-                                <Image size='small' floated='right' src={Linkedin} alt='LinkedIn Img'/>
+                                <Image id='GithubLogo' size='small' floated='left' src={Github} alt='Github Img'/>
+                                <Image id='LinkedInLogo' size='small' floated='right' src={Linkedin} alt='LinkedIn Img'/>
                             </Container>
                     </Grid.Column>
                     <Grid.Column id='AboutGridColumnTwo' floated='right' width={5}>

@@ -18,15 +18,15 @@ class Projects extends React.Component {
                         <Rail id='LeftArrow' className='Rails' position='left'>
                         <Icon name='chevron left' size='huge' />
                         </Rail>
-                        <Grid>
-                            <Grid.Column width={8} >
-                                <Grid.Row>
-                                    <Segment>
+                        <Grid id='ProjectsGrid'>
+                            <Grid.Column id='ProjectsColumnOne' width={8} >
+                                <Grid.Row id='ProjectsRowOne'>
+                                    <Segment id='PictureSegment'>
                                         Picture Here
                                     </Segment>
                                 </Grid.Row>
-                                <Grid.Row>
-                                    <Segment>
+                                <Grid.Row id='ProjectsRowTwo'>
+                                    <Segment id='TechSegment'>
                                         Tech Stack Here
                                     </Segment>
                                 </Grid.Row>

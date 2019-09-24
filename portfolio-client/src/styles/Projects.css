@@ -26,6 +26,31 @@
     width: auto;
 }
 
+#ProjectsGrid{
+    height: 100%;
+    margin: 0;
+}
+
+#ProjectsColumnOne{
+    height: 50%;
+}
+
+#ProjectsRowOne{
+    height: 100%;
+}
+
+#PictureSegment{
+    height: inherit;
+}
+
+#ProjectsRowTwo{
+    height: 100%;
+}
+
+#TechSegment{
+    height: inherit;
+}
+
 #RightArrow{
     display: flex;
     flex-direction: column;
