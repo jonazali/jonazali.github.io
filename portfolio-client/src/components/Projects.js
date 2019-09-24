@@ -15,13 +15,30 @@ class Projects extends React.Component {
             <div id='ProjectsDivOuter'>
                 <div id="ProjectsDivInner"> 
                 <Segment id='ProjectCard'>
-                        <Rail id='LeftArrow' position='left'>
+                        <Rail id='LeftArrow' className='Rails' position='left'>
                         <Icon name='chevron left' size='huge' />
                         </Rail>
-                        <Segment>
-                            Content Here
-                        </Segment>
-                        <Rail id='RightArrow' position='right'>
+                        <Grid>
+                            <Grid.Column width={8} >
+                                <Grid.Row>
+                                    <Segment>
+                                        Picture Here
+                                    </Segment>
+                                </Grid.Row>
+                                <Grid.Row>
+                                    <Segment>
+                                        Tech Stack Here
+                                    </Segment>
+                                </Grid.Row>
+                            </Grid.Column>
+                            <Grid.Column width={8}>
+                                <Segment>
+                                    Description Here
+                                </Segment>
+                            </Grid.Column>
+                        </Grid>
+                        
+                        <Rail id='RightArrow' className='Rails' position='right'>
                             <Icon name='chevron right' size='huge' />
                         </Rail>
                 </Segment>
