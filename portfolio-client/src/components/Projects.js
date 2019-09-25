@@ -30,9 +30,9 @@ class Projects extends React.Component {
                                         Tech Stack Here
                                     </Segment>
                                 </Grid.Row>
-                            </Grid.Column>
-                            <Grid.Column width={8}>
-                                <Segment>
+                            </Grid.Column >
+                            <Grid.Column id='ProjectsColumnTwo' width={8}>
+                                <Segment id='DescriptionSegment'>
                                     Description Here
                                 </Segment>
                             </Grid.Column>
