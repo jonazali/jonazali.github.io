@@ -13,7 +13,7 @@ class Blogs extends React.Component {
     render(){
         return(
             <div id='BlogsDiv'>
-                
+                <h2>Why</h2>
             </div>
         )
     }

@@ -16,6 +16,7 @@ class Portfolio extends React.Component {
                 <Home />
                 <About />
                 <Projects />
+                <Blog />
             </main>
         )
     }
