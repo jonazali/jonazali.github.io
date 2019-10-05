@@ -1,0 +1,11 @@
+{
+    "projects": [{
+        "project_name": "Aura",
+        "tech_stack": {
+            "Languages": "JavaScript",
+            "Front-End": "React Framework",
+            "Back-End": "Node.js, MongoDB, Express Framework, Mongoose ODM"
+        },
+        "description": "Reviews and ratins are important when people want to look for a place to socialize, eat, or relax. But at Aura we try to solve the problem of users searching for locations based on the vibe or as we call it aura of the location. I worked as a full-stack developer and helped build this website from the ground-up. Check it out here at aura.community"
+    }]
+}

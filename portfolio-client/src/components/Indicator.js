@@ -13,7 +13,7 @@ class Indicator extends React.Component {
     render(){
         return(
             <div id='IndicatorDiv'>
-                <Icon name='circle outline' size='huge' />
+                <Icon name='circle outline' size='big' />
             </div>
         )
     }

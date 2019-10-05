@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Import Components Here
+import Indicator from './Indicator.js';
 import { Grid, Button, Image, Rail, Segment, Icon } from 'semantic-ui-react';
 
 // Import Media Here
@@ -18,6 +19,7 @@ class Projects extends React.Component {
                         <Rail id='LeftArrow' className='Rails' position='left'>
                         <Icon name='chevron left' size='huge' />
                         </Rail>
+
                         <Grid id='ProjectsGrid'>
                             <Grid.Column id='ProjectsColumnOne' width={8} >
                                 <Grid.Row id='ProjectsRowOne'>
@@ -38,11 +40,14 @@ class Projects extends React.Component {
                             </Grid.Column>
                         </Grid>
                         
+
                         <Rail id='RightArrow' className='Rails' position='right'>
                             <Icon name='chevron right' size='huge' />
                         </Rail>
                 </Segment>
+                
                 </div>
+                <Indicator />
             </div>
         )
     }
